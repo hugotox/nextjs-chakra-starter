@@ -1,0 +1,22 @@
+{
+  "name": "theme",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@chakra-ui/react": "^2.1.2",
+    "@emotion/react": "^11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "config": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
