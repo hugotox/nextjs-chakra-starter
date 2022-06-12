@@ -2812,6 +2812,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hugotox/nextjs-chakra-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@hugotox/nextjs-chakra-starter@workspace:."
+  dependencies:
+    prettier: latest
+    turbo: latest
+  languageName: unknown
+  linkType: soft
+
 "@humanwhocodes/config-array@npm:^0.5.0":
   version: 0.5.0
   resolution: "@humanwhocodes/config-array@npm:0.5.0"
@@ -8026,6 +8035,18 @@ __metadata:
   checksum: ba12bb2257b585a0396108c72830e85f882ab659c3320c83584b1037f8ab72415095167ced80dc4ce8e446a8ecc4b2acf36d87befe0707d73b26cf9dc77440ed
   languageName: node
   linkType: hard
+
+"create-nextjs-chakra-app@workspace:packages/create-nextjs-chakra-app":
+  version: 0.0.0-use.local
+  resolution: "create-nextjs-chakra-app@workspace:packages/create-nextjs-chakra-app"
+  dependencies:
+    chalk: ^4.1.2
+    config: "*"
+    eslint: ^7.32.0
+  bin:
+    create-nextjs-chakra-app: src/create-nextjs-chakra-app.js
+  languageName: unknown
+  linkType: soft
 
 "cross-spawn@npm:^6.0.0":
   version: 6.0.5
@@ -13862,15 +13883,6 @@ __metadata:
   checksum: 670d544fd47670c29681d10824e6da625e9d4a048e564c8d9cb80d37f33c9ff9b5ca0a53e6d84d8d618b1fe7c9bb4e6b45040cb7e57a5c46b232a8f914425dc1
   languageName: node
   linkType: hard
-
-"nextjs-chakra-starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nextjs-chakra-starter@workspace:."
-  dependencies:
-    prettier: latest
-    turbo: latest
-  languageName: unknown
-  linkType: soft
 
 "nice-try@npm:^1.0.4":
   version: 1.0.5

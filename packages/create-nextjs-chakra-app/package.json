@@ -1,5 +1,5 @@
 {
-  "name": "@hugotox/create-nextjs-chakra-app",
+  "name": "create-nextjs-chakra-app",
   "version": "0.0.0",
   "repository": "github:hugotox/nextjs-chakra-starter",
   "main": "src/create-nextjs-chakra-app.js",
@@ -18,8 +18,7 @@
     "eslint": "^7.32.0"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://zumper.jfrog.io/artifactory/api/npm/npm/"
+    "access": "public"
   },
   "volta": {
     "extends": "../../package.json"
