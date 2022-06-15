@@ -3,7 +3,6 @@ import { Global } from '@emotion/react'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { theme, globalStyle } from 'theme'
-import '../fonts/roboto/roboto.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
