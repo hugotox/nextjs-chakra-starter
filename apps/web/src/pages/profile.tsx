@@ -1,17 +1,19 @@
-import { Link } from '@chakra-ui/react'
+import { Heading, Link } from '@chakra-ui/react'
 import { GetStaticProps } from 'next'
 import NextLink from 'next/link'
 
-import { Home } from '../components/home'
+import { Banner } from '../components/banner'
 import { getLangFiles } from '../utils/pages'
 
-export default function Index() {
+export default function Profile() {
   return (
     <>
-      <Home />
-      <NextLink href="/profile" passHref>
-        <Link>Profile</Link>
+      <Heading>Profile page</Heading>
+      <NextLink href="/" passHref>
+        <Link>Home</Link>
       </NextLink>
+      <br />
+      <Banner />
     </>
   )
 }

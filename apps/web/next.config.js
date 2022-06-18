@@ -6,8 +6,9 @@ const withTM = require("next-transpile-modules")([
 
 module.exports = withTM({
   i18n: {
-    locales: ["en"],
+    locales: ["en", "es"],
     defaultLocale: "en",
+    localeDetection: false
   },
   reactStrictMode: true,
 });

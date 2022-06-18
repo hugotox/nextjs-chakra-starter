@@ -2,6 +2,7 @@
 import { extendTheme, withDefaultColorScheme, Theme as ChakraTheme } from '@chakra-ui/react'
 
 import * as breakpoints from './breakpoints'
+import { Button } from './componentStyles'
 
 export type ColorNames = keyof ChakraTheme['colors']
 
@@ -21,10 +22,16 @@ export const theme = extendTheme(
     colors: {
       // override colors here
     },
+    components: {
+      Button,
+    },
     fonts: {
-      body: 'Roboto, Helvetica, Arial, "Lucida Grande", sans-serif',
-      heading: 'Roboto, Helvetica, Arial, "Lucida Grande", sans-serif;',
+      body: '"Titillium Web", Helvetica, Arial, "Lucida Grande", sans-serif',
+      heading: '"Titillium Web", Helvetica, Arial, "Lucida Grande", sans-serif;',
       mono: "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace",
+    },
+    fontWeights: {
+      medium: 600, // makes medium=semibold
     },
     shadows: {
       outline: '0 0 0 3px var(--chakra-colors-gray-300)',
