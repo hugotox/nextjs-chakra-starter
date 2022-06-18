@@ -1,6 +1,7 @@
 import { Heading } from '@chakra-ui/react'
 import { css, Theme } from '@emotion/react'
 import { useTranslations } from 'next-intl'
+import { Button } from 'ui'
 
 import { Banner } from '../banner'
 
@@ -14,6 +15,7 @@ export const Home = () => {
     <>
       <Heading css={styles}>{t('heading')}</Heading>
       <Banner />
+      <Button>Test</Button>
     </>
   )
 }
