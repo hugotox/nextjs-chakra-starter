@@ -1,5 +1,5 @@
 import { Heading } from '@chakra-ui/react'
-import { css, Theme } from '@emotion/react'
+import { Interpolation, Theme, css } from '@emotion/react'
 import { useTranslations } from 'next-intl'
 import { Button } from 'ui'
 
@@ -13,7 +13,7 @@ export const Home = () => {
   const t = useTranslations('Home')
   return (
     <>
-      <Heading css={styles}>{t('heading')}</Heading>
+      <Heading css={styles as Interpolation<{}>}>{t('heading')}</Heading>
       <Banner />
       <Button>Test</Button>
     </>

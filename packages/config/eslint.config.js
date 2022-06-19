@@ -46,6 +46,9 @@ module.exports = {
       },
     ],
     "sort-export-all/sort-export-all": "error",
+    'sort-imports': ['error', {
+      ignoreDeclarationSort: true
+    }],
     'react/jsx-sort-props': 'warn',
     'react/sort-prop-types': 'warn',
     'sort-destructure-keys/sort-destructure-keys': 2,
