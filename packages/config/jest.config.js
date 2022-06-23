@@ -15,6 +15,7 @@ const defaultConfig = {
   moduleNameMapper: {
     "\\.(css|less)$": "<rootDir>/styleMock.js"
   },
+  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!**/*.d.ts', '!**/_app.tsx', '!**/_document.tsx', '!**/test/**', '!**/stories/**'],
   coverageThreshold: {
     global: {
       branches: 100,

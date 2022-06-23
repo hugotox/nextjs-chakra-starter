@@ -1,3 +1,3 @@
-type WebLang = typeof import('./lang/index/en.json')
+type WebLang = typeof import('lang/en.json')
 
 declare interface IntlMessages extends WebLang {}

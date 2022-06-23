@@ -1,6 +1,8 @@
+/* eslint-disable import/export */
 import { ChakraProvider } from '@chakra-ui/react'
 import { Store, configureStore } from '@reduxjs/toolkit'
 import { RenderOptions, render } from '@testing-library/react'
+import enLang from 'lang/en.json'
 import { NextIntlProvider } from 'next-intl'
 import { ReactElement } from 'react'
 import { Provider } from 'react-redux'
@@ -19,11 +21,11 @@ interface Options extends RenderOptions {
 }
 
 const WithReduxProvider = (store: Store) => {
-  return function Wrapper({ children }: WithChildren) {
+  return function AllProviders({ children }: WithChildren) {
     return (
       <Provider store={store}>
         <ChakraProvider theme={theme}>
-          <NextIntlProvider locale="en" messages={{}}>
+          <NextIntlProvider locale="en" messages={enLang}>
             {children}
           </NextIntlProvider>
         </ChakraProvider>
@@ -36,4 +38,8 @@ const renderWithProviders = (ui: ReactElement, options?: Omit<Options, 'wrapper'
   return render(ui, { wrapper: WithReduxProvider(options?.store ?? fallbackStore), ...options })
 }
 
-export { renderWithProviders }
+// re-export everything
+export * from '@testing-library/react'
+
+// override render method
+export { renderWithProviders as render }

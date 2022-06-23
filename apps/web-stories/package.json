@@ -28,8 +28,9 @@
     "@storybook/testing-library": "^0.0.13",
     "@storybook/theming": "^6.5.9",
     "babel-loader": "^8.2.5",
+    "config": "*",
+    "eslint": "^8.18.0",
     "sb": "^6.5.9",
-    "tsconfig": "*",
     "typescript": "^4.7.4"
   },
   "volta": {

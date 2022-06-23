@@ -12,15 +12,10 @@
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
-  "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@reduxjs/toolkit": "^1.8.2",
-    "next-intl": "^2.7.4",
-    "react-redux": "^8.0.2",
-    "theme": "*"
+  "peerDependencies": {
+    "react": "*"
   },
   "devDependencies": {
-    "@storybook/react": "^6.5.9",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@types/react": "^18.0.14",
@@ -30,7 +25,6 @@
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "stylelint": "^14.9.1",
-    "tsconfig": "*",
     "typescript": "^4.7.4"
   },
   "volta": {

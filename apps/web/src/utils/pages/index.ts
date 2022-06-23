@@ -1,1 +1,1 @@
-export * from './getLangFiles'
+export { getLangFiles } from './getLangFiles'

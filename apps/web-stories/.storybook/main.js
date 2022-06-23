@@ -19,7 +19,7 @@ module.exports = {
 
   // https://storybook.js.org/docs/react/sharing/package-composition#set-up
   refs: {
-    '@chakra-ui/react': { disable: true }
+    '@chakra-ui/react': { disable: true },
   },
 
   // https://github.com/storybookjs/storybook/issues/16690#issuecomment-971579785
