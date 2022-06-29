@@ -1,9 +1,9 @@
 {
   "name": "config",
   "version": "0.0.0",
-  "private": true,
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "sideEffects": false,
   "files": [
     "eslint.config.js",

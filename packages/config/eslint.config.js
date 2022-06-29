@@ -46,12 +46,12 @@ module.exports = {
       },
     ],
     "sort-export-all/sort-export-all": "error",
-    'sort-imports': ['error', {
-      ignoreDeclarationSort: true
-    }],
     'react/jsx-sort-props': 'warn',
     'react/sort-prop-types': 'warn',
     'sort-destructure-keys/sort-destructure-keys': 2,
+    'sort-imports': ['error', {
+      ignoreDeclarationSort: true
+    }],
     'sort-keys': 'warn',
     '@next/next/no-html-link-for-pages': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',

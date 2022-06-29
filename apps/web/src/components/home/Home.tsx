@@ -1,7 +1,7 @@
 import { Heading } from '@chakra-ui/react'
 import { Interpolation, Theme, css } from '@emotion/react'
 import { useTranslations } from 'next-intl'
-import { Button } from 'ui'
+import { ColorModeToggle } from 'ui'
 
 import { Banner } from '../banner'
 
@@ -15,7 +15,7 @@ export const Home = () => {
     <>
       <Heading css={styles as Interpolation<{}>}>{t('heading')}</Heading>
       <Banner />
-      <Button>Test</Button>
+      <ColorModeToggle />
     </>
   )
 }

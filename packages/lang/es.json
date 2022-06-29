@@ -4,5 +4,11 @@
   },
   "Home": {
     "heading": "Hola, Mundo"
+  },
+  "ui": {
+    "ColorModeToggle": {
+      "switchToLight": "cambiar a modo claro",
+      "switchToDark": "cambiar a modo oscuro"
+    }
   }
 }
