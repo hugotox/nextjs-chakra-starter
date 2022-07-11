@@ -16,12 +16,14 @@
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@reduxjs/toolkit": "^1.8.3",
     "framer-motion": "^6.4.3",
-    "lang": "*",
     "next": "12.2.2",
     "next-intl": "^2.7.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
     "theme": "*",
     "ui": "*",
     "utils": "*"
@@ -38,7 +40,6 @@
     "jest-environment-jsdom": "^28.1.2",
     "next-transpile-modules": "^9.0.0",
     "stylelint": "^14.9.1",
-    "test-utils": "*",
     "typescript": "^4.7.4"
   },
   "volta": {

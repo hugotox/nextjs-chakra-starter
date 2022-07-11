@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next'
 import NextLink from 'next/link'
 
 import { Home } from '../components/home'
-import { getLangFiles } from '../utils/pages'
+import { getLangMessages } from '../utils/pageUtils'
 
 export default function Index() {
   return (
@@ -16,13 +16,10 @@ export default function Index() {
   )
 }
 
-export const getStaticProps: GetStaticProps = async ({ locale = 'en' }) => {
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
-      // You can get the messages from anywhere you like. The recommended
-      // pattern is to put them in JSON files separated by language and read
-      // the desired one based on the `locale` received from Next.js.
-      messages: await getLangFiles(locale),
+      ...(await getLangMessages({ locale, page: 'index' })),
     },
   }
 }

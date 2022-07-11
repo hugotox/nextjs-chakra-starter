@@ -1,6 +1,5 @@
-import { render } from 'test-utils'
-
 import Index, { getStaticProps } from '../pages/index'
+import { render } from '../utils/testUtils'
 
 describe('Index', () => {
   it('renders', () => {

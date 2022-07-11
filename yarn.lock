@@ -1701,12 +1701,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.18.3
   resolution: "@babel/runtime@npm:7.18.3"
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: db8526226aa02cfa35a5a7ac1a34b5f303c62a1f000c7db48cb06c6290e616483e5036ab3c4e7a84d0f3be6d4e2148d5fe5cec9564bf955f505c3e764b83d7f1
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.12.1":
+  version: 7.18.6
+  resolution: "@babel/runtime@npm:7.18.6"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: 8b707b64ae0524db617d0c49933b258b96376a38307dc0be8fb42db5697608bcc1eba459acce541e376cff5ed5c5287d24db5780bd776b7c75ba2c2e26ff8a2c
   languageName: node
   linkType: hard
 
@@ -11609,9 +11618,9 @@ __metadata:
   linkType: hard
 
 "immer@npm:^9.0.7":
-  version: 9.0.14
-  resolution: "immer@npm:9.0.14"
-  checksum: 17f1365c06d653e672a4f609f08e7203e9ab4b4284818332d6ca9b3f3577a0e3c0066ca7933b636fbae560df79a4b3fde70ed717ce3c6e95c39bf3d5861d5be9
+  version: 9.0.15
+  resolution: "immer@npm:9.0.15"
+  checksum: 92e3d63e810e3c3c2bb61b70c45443e37ef983ad12924e3edaf03725ae5979618f5b473439bb3bb4a8c4769f25132f18dec10ea15c40f0b20da5691ff96ff611
   languageName: node
   linkType: hard
 
@@ -13332,14 +13341,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lang@*, lang@workspace:packages/lang":
-  version: 0.0.0-use.local
-  resolution: "lang@workspace:packages/lang"
-  peerDependencies:
-    next-intl: "*"
-  languageName: unknown
-  linkType: soft
-
 "language-subtag-registry@npm:~0.3.2":
   version: 0.3.21
   resolution: "language-subtag-registry@npm:0.3.21"
@@ -15055,7 +15056,6 @@ __metadata:
     jest: ^28.1.2
     jest-environment-jsdom: ^28.1.2
     stylelint: ^14.9.1
-    test-utils: "*"
     theme: "*"
     typescript: ^4.7.4
     utils: "*"
@@ -16468,7 +16468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:^4.1.2":
+"redux@npm:^4.1.2, redux@npm:^4.2.0":
   version: 4.2.0
   resolution: "redux@npm:4.2.0"
   dependencies:
@@ -18231,30 +18231,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"test-utils@*, test-utils@workspace:packages/test-utils":
-  version: 0.0.0-use.local
-  resolution: "test-utils@workspace:packages/test-utils"
-  dependencies:
-    "@chakra-ui/react": ^2.2.1
-    "@reduxjs/toolkit": ^1.8.3
-    "@testing-library/jest-dom": ^5.16.4
-    "@testing-library/react": ^13.3.0
-    "@types/react": ^18.0.15
-    "@types/react-dom": ^18.0.6
-    config: "*"
-    eslint: ^8.19.0
-    jest: ^28.1.2
-    jest-environment-jsdom: ^28.1.2
-    lang: "*"
-    next-intl: ^2.7.4
-    react: 18.2.0
-    react-redux: ^8.0.2
-    stylelint: ^14.9.1
-    theme: "*"
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
-
 "text-table@npm:^0.2.0":
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
@@ -18801,10 +18777,8 @@ __metadata:
     eslint: ^8.19.0
     jest: ^28.1.2
     jest-environment-jsdom: ^28.1.2
-    lang: "*"
     react-icons: ^4.4.0
     stylelint: ^14.9.1
-    test-utils: "*"
     theme: "*"
     typescript: ^4.7.4
     utils: "*"
@@ -19166,12 +19140,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:1.1.0, use-sync-external-store@npm:^1.0.0":
+"use-sync-external-store@npm:1.1.0":
   version: 1.1.0
   resolution: "use-sync-external-store@npm:1.1.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 8993a0b642f91d7fcdbb02b7b3ac984bd3af4769686f38291fe7fcfe73dfb73d6c64d20dfb7e5e7fbf5a6da8f5392d6f8e5b00c243a04975595946e82c02b883
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.0.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
   languageName: node
   linkType: hard
 
@@ -19454,6 +19437,7 @@ __metadata:
     "@chakra-ui/react": ^2.2.1
     "@emotion/react": ^11.9.3
     "@emotion/styled": ^11.9.3
+    "@reduxjs/toolkit": ^1.8.3
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
     "@types/node": ^18.0.3
@@ -19464,14 +19448,14 @@ __metadata:
     framer-motion: ^6.4.3
     jest: ^28.1.2
     jest-environment-jsdom: ^28.1.2
-    lang: "*"
     next: 12.2.2
     next-intl: ^2.7.4
     next-transpile-modules: ^9.0.0
     react: 18.2.0
     react-dom: 18.2.0
+    react-redux: ^8.0.2
+    redux: ^4.2.0
     stylelint: ^14.9.1
-    test-utils: "*"
     theme: "*"
     typescript: ^4.7.4
     ui: "*"

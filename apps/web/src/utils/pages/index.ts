@@ -1,1 +1,0 @@
-export { getLangFiles } from './getLangFiles'

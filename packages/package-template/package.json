@@ -33,7 +33,6 @@
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
     "stylelint": "^14.9.1",
-    "test-utils": "*",
     "typescript": "^4.7.4"
   },
   "volta": {
