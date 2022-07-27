@@ -1,4 +1,4 @@
-import { css, Theme } from '@emotion/react'
+import { Theme, css } from '@emotion/react'
 import './fonts/titillium-web/titillium-web.css'
 
 /**

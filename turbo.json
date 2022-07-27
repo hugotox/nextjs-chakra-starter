@@ -6,33 +6,26 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
-    "lint": {
-      "outputs": [
-        ".eslintcache",
-        ".next/cache/eslint/**"
-      ]
-    },
-    "lint:css": {
-      "outputs": [
-        ".stylelintcache"
-      ]
-    },
-    "format": {},
-    "test": {},
-    "test:coverage": {
-      "outputs": [
-        "coverage/**"
-      ]
+    "build-storybook": {
+      "outputs": ["storybook-static/**"]
     },
     "dev": {
       "cache": false
+    },
+    "format": {},
+    "lint": {
+      "outputs": [".eslintcache", ".next/cache/eslint/**"]
+    },
+    "lint:css": {
+      "outputs": [".stylelintcache"]
     },
     "start": {},
     "storybook": {
       "cache": false
     },
-    "build-storybook": {
-      "outputs": ["storybook-static/**"]
+    "test": {},
+    "test:coverage": {
+      "outputs": ["coverage/**"]
     }
   }
 }
