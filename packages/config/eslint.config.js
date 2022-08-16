@@ -52,7 +52,6 @@ module.exports = {
     'sort-imports': ['error', {
       ignoreDeclarationSort: true
     }],
-    'sort-keys': 'warn',
     '@next/next/no-html-link-for-pages': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
   },
