@@ -1,6 +1,6 @@
 import { Theme as ChakraTheme, extendTheme } from '@chakra-ui/react'
 
-import { Button } from './componentStyles'
+import { Button, Heading, Link } from './componentStyles'
 
 export type ColorNames = keyof ChakraTheme['colors']
 
@@ -24,6 +24,8 @@ export const theme = extendTheme({
   },
   components: {
     Button,
+    Heading,
+    Link,
   },
   fontWeights: {
     medium: 600, // makes medium=semibold
