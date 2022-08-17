@@ -29,8 +29,8 @@ export const theme = extendTheme({
     medium: 600, // makes medium=semibold
   },
   fonts: {
-    body: '"Titillium Web", Helvetica, Arial, "Lucida Grande", sans-serif',
-    heading: '"Titillium Web", Helvetica, Arial, "Lucida Grande", sans-serif;',
+    body: 'Open Sans, Helvetica, Arial, sans-serif',
+    heading: 'Open Sans, Helvetica, Arial, sans-serif;',
     mono: "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace",
   },
   initialColorMode: 'light',

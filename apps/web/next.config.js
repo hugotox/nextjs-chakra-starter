@@ -11,4 +11,5 @@ module.exports = withTM({
     localeDetection: false
   },
   reactStrictMode: true,
+  optimizeFonts: false,
 });
